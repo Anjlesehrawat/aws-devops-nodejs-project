@@ -1,0 +1,78 @@
+############################
+# Node.js dependencies
+############################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+############################
+# Environment variables (VERY IMPORTANT)
+############################
+.env
+.env.*
+!.env.example
+
+############################
+# Logs
+############################
+logs/
+*.log
+
+############################
+# OS files
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# Build / dist
+############################
+dist/
+build/
+out/
+coverage/
+
+############################
+# Docker
+############################
+*.tar
+docker-compose.override.yml
+
+############################
+# AWS Credentials / Secrets (CRITICAL)
+############################
+.aws/
+aws-credentials
+credentials
+*.pem
+*.key
+*.p12
+
+############################
+# Terraform (if used later)
+############################
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+############################
+# IDE / Editors
+############################
+.vscode/
+.idea/
+*.swp
+*.swo
+
+############################
+# ECS / ECR temporary files (optional)
+############################
+ecs-debug.log
+ecr-debug.log
+
+############################
+# Backup files
+############################
+*.bak
+*.tmp
